@@ -1,0 +1,8 @@
+project:
+  name: aws-cloudformation-template
+  regions:
+    - us-east-1
+    - us-east-2
+tests:
+  vpc2az-test:
+    template: ./vpc2az.yml
